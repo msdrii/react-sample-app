@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "vite --mode developement",
+    "prod": "vite --mode production",
+    "build:prod": "tsc && vite build --mode production",
+    "build:dev": "tsc && vite build --mode development",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint": "eslint src",
-    "test": "vitest run"
+    "test": "firebase emulators:exec --only firestore 'vitest run'"
   },
   "dependencies": {
     "firebase": "^9.15.0",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
+    "@firebase/rules-unit-testing": "^2.0.5",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",

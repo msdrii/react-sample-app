@@ -1581,6 +1581,13 @@
     "@firebase/util" "1.8.0"
     "tslib" "^2.1.0"
 
+"@firebase/rules-unit-testing@^2.0.5":
+  "integrity" "sha512-EV9YgbpfdUSA65aHBX/wkqKJbORrA9UmBNLRZxUsIWbHu9W8GE8Jvlb0uxU02iR+GpGW69zw+ZENANdRW3ZUMA=="
+  "resolved" "https://registry.npmjs.org/@firebase/rules-unit-testing/-/rules-unit-testing-2.0.5.tgz"
+  "version" "2.0.5"
+  dependencies:
+    "node-fetch" "2.6.7"
+
 "@firebase/storage-compat@0.2.0":
   "integrity" "sha512-w+7CyZyZ53YQWlTb8YOQ9YcmScgDwkvkXhpUbRWHlvlzAs06l0au42MydmHCeeTcSqvLOzpgURiVfm15ZifARg=="
   "resolved" "https://registry.npmjs.org/@firebase/storage-compat/-/storage-compat-0.2.0.tgz"
@@ -5978,7 +5985,7 @@
     "locate-path" "^6.0.0"
     "path-exists" "^4.0.0"
 
-"firebase@^9.15.0":
+"firebase@^9.0.0", "firebase@^9.15.0":
   "integrity" "sha512-Fa8qFahDY/pMYMzwPGcfpUkAS3Q55qJ0QKD+5xnXjSX/jVHsJqoXtxapmyDCfAKktiLhXIcRElW1VDVd9xGwQQ=="
   "resolved" "https://registry.npmjs.org/firebase/-/firebase-9.15.0.tgz"
   "version" "9.15.0"
